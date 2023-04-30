@@ -1,10 +1,14 @@
 package wdcoder.objects;
 
-public class Customer {
-    public Customer(String username, String password) {
+public class UserObject {
+
+    public UserObject(String username, String password) {
         this.username = username;
         this.password = password;
     }
+
+    private String username;
+    private String password;
 
     public String getUsername() {
         return username;
@@ -14,8 +18,6 @@ public class Customer {
         this.username = username;
     }
 
-    private String username;
-
     public String getPassword() {
         return password;
     }
@@ -23,6 +25,4 @@ public class Customer {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    private String password;
 }

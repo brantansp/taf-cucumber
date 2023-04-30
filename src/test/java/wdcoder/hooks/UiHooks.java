@@ -1,4 +1,4 @@
-package wdcoder.hooks.ui;
+package wdcoder.hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -10,6 +10,7 @@ public class UiHooks {
     @Before
     public void beforeHook() throws InstantiationException {
         driver = DriverFactory.initialize("chrome");
+        driver.manage().window().maximize();
     }
 
     @After

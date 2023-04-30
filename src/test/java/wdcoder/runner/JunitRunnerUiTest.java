@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/wdcoder/features/ui",
-        glue = {"wdcoder/stepDefinitions/ui","wdcoder/hooks/ui"},
+        features = "src/test/resources/wdcoder/features",
+        glue = {"wdcoder/stepDefinitions", "wdcoder/hooks", "wdcoder/objects", "wdcoder/types"},
         monochrome = false,
         tags = ("@webtest")
 )
