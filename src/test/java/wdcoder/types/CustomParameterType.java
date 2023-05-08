@@ -6,7 +6,7 @@ import wdcoder.objects.AppObject;
 public class CustomParameterType {
 
     @ParameterType(".*")
-    public AppObject AppPage(String psgeName){
-        return new AppObject(psgeName.replaceAll("\"",""));
+    public AppObject AppPage(String pageName){
+        return new AppObject(pageName.replaceAll("\"",""));
     }
 }
