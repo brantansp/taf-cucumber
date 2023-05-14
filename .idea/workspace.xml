@@ -5,29 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab54101f-f9d0-4ce6-90f3-3429770e8040" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/wdcoder/objects/AppObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wdcoder/pages/AdminPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wdcoder/types/CustomDataTableType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/wdcoder/types/CustomParameterType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wdcoder/context/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/healenium.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/wdcoder/features/uiAdminTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/hooks/bdd/CucumberHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/hooks/ui/UiHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/hooks/UiHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/objects/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/objects/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/objects/UserObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/objects/CustomerList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/runner/JunitRunnerUiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/runner/JunitRunnerUiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/runner/JunitRunnerbddTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/bdd/DataTableStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/bdd/MyStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/bdd/WebPageStepdefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/ui/UiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/UiStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/types/CustomParameterTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/bdd/data_table.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/bdd/new.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/bdd/test.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/bdd/webPages.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/bdd/webPages1.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/ui/uiTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/wdcoder/features/uiTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/hooks/UiHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/hooks/UiHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/pages/DocumentationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/pages/DocumentationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/runner/TestNGRunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/runner/TestNGRunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/UiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/stepDefinitions/UiStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wdcoder/utilities/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/wdcoder/utilities/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/wdcoder/features/uiTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/wdcoder/features/uiSitesTest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +52,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/TestAutomation/taf-cucumber/src/test/java/wdcoder/stepDefinitions/ui&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -83,7 +75,7 @@
       <recent name="C:\TestAutomation\taf-cucumber\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JunitRunnerUiTest">
+  <component name="RunManager" selected="Remote JVM Debug.debug">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/test.feature" />
@@ -246,10 +238,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="wdcoder.runner" />
       <option name="MAIN_CLASS_NAME" value="wdcoder.runner.JunitRunnerUiTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="debug" type="Remote">
+      <module name="taf-cucumber" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Testing parameter" />
@@ -260,6 +267,7 @@
       <item itemvalue="Cucumber Java.Scenario: To tes the UI application" />
       <item itemvalue="Cucumber Java.Feature: uiTests" />
       <item itemvalue="JUnit.JunitRunnerUiTest" />
+      <item itemvalue="Remote JVM Debug.debug" />
     </list>
     <recent_temporary>
       <list>

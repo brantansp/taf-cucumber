@@ -1,7 +1,9 @@
 package wdcoder.stepDefinitions;
 
+import com.epam.healenium.SelfHealingDriver;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
+import wdcoder.context.World;
 import wdcoder.objects.UserObject;
 import wdcoder.objects.AppObject;
 import wdcoder.pages.AdminPage;
@@ -11,12 +13,16 @@ import wdcoder.pages.HomePage;
 import wdcoder.utilities.DriverFactory;
 
 public class UiStepdefs {
-    public WebDriver driver;
+
+    private SelfHealingDriver driver;
     private UserObject user;
+
+    public UiStepdefs(World world){
+        driver = world.driver;
+    }
 
     @Given("User opening the site {string}")
     public void userOpeningTheSite(String url) {
-        driver = DriverFactory.getDriver();
         new BasePage(driver).loadUrl(url);
     }
 

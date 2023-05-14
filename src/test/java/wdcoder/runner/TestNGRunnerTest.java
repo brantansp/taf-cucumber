@@ -9,8 +9,9 @@ import org.testng.annotations.BeforeClass;
         plugin = {"message:target/cucumber-report.ndjson",
                   "pretty","html:target/cucumber.html"},
         features = "src/test/resources/wdcoder/features",
-        glue = {"wdcoder/stepDefinitions","wdcoder/types"},
-        monochrome = true
+        glue = {"wdcoder/stepDefinitions", "wdcoder/hooks", "wdcoder/objects", "wdcoder/types"},
+        monochrome = true,
+        tags = ("@webtest")
 )
 public class TestNGRunnerTest  extends AbstractTestNGCucumberTests {
     @BeforeClass
@@ -23,6 +24,7 @@ public class TestNGRunnerTest  extends AbstractTestNGCucumberTests {
         System.out.println("afterClass");
     }
 }*/
+
 
 public class TestNGRunnerTest {
 

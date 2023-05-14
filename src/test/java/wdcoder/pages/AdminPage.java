@@ -1,15 +1,12 @@
 package wdcoder.pages;
 
+import com.epam.healenium.SelfHealingDriver;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import wdcoder.objects.UserObject;
-
-import java.security.PrivateKey;
-import java.time.Duration;
 
 public class AdminPage extends BasePage {
 
@@ -18,7 +15,7 @@ public class AdminPage extends BasePage {
     @FindBy(id = "wp-submit") private WebElement signinButton;
     @FindBy(xpath = "//h1[text()='Dashboard']") private WebElement dashboardVerification;
 
-    public AdminPage(WebDriver driver) {
+    public AdminPage(SelfHealingDriver driver) {
         super(driver);
     }
 
