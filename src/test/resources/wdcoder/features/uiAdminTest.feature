@@ -1,5 +1,5 @@
 Feature: Test the ui application
-  @webtest
+  @webtest @test
   Scenario: Login to Admin portal
     Given User opening the site "https://wdcoder.tech/wp-admin"
     #Example for CustomDataTableType

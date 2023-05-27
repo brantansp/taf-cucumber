@@ -7,4 +7,4 @@ Feature: Test the ui application
     Examples:
       | page           |
       | Driver Methods |
-      #| Common         |
+      | Common         |
